@@ -1,10 +1,11 @@
 ---
 title: "Pythagoreanism"
-author: "Vera Vavan"
+author: "[Vera Vavan](https://github.com/veravavan)"
 date: "12/26/2020"
 output:
   ioslides_presentation:
     transition: slower
+bibliography: references.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -13,9 +14,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## What is Pythagoreanism?
 
-Pythagoreanism is a school of philosophy based on the beliefs of the Pre-Socratic philosopher Pythagoras and his followers, often called Pythagoreans, which was formed around the fifth century BCE.
+Pythagoreanism is a school of philosophy based on the beliefs of the Pre-Socratic philosopher Pythagoras and his followers, often called Pythagoreans, which was formed around the fifth century BCE.[@huffman_pythagoreanism_2019]
 
-Little is known about Pythagoras, especially since he left no writings himself, however he created an academy, which can also be called a cult, where his followers lived in a commune and recorded his ideas. The reason for this is that Pythagoras believed that following strict living rules will lead to freedom from the cycle of reincarnation, which is his goal of life. 
+Little is known about Pythagoras, especially since he left no writings himself, however he created an academy, which can also be called a cult, where his followers lived in a commune and recorded his ideas. The reason for this is that Pythagoras believed that following strict living rules will lead to freedom from the cycle of reincarnation, which is his goal of life. [@dk_philosophy_2017]
 
 However, he is best known for the Pythagorean theorem:
 
@@ -39,7 +40,7 @@ knitr::include_graphics("timeline.png")
 
 ```
 ----------
-Aristotle referred to Pythagoras's followers as **“the so-called Pythagoreans”**, questioning their connection with Pythagoras. 
+Aristotle referred to Pythagoras's followers as **“the so-called Pythagoreans”**, questioning their connection with Pythagoras. [@huffman_pythagoreanism_2019]
 ----------
 
 # Some of the main ideas of Pythagoreanism
@@ -48,9 +49,8 @@ Aristotle referred to Pythagoras's followers as **“the so-called Pythagoreans�
 <div style="color:white;">
 * Numbers 
 
-Pythagoras and his followers believed that the basis of the universe and everything in it are numbers. This idea is not so different from the Milesian idea, since it still agrees that the universe is made from only one substance, but in Pythagoras case he replaces the substance with a form. 
-
-This idea led to a very important conclusion in mathematics, which is that numbers exist on their own and do not need to be assigned to something, like an object. However, they believed that only whole numbers exist, so the ratio 1.5:2 would be written as 3:4.
+Pythagoras and his followers believed that the basis of the universe and everything in it are numbers. This idea is not so different from the Milesian idea, since it still agrees that the universe is made from only one substance, but in Pythagoras case he replaces the substance with a form. [@dk_philosophy_2017]
+This idea led to a very important conclusion in mathematics, which is that numbers exist on their own and do not need to be assigned to something, like an object. However, they believed that only whole numbers exist, so the ratio 1.5:2 would be written as 3:4. [@noauthor_pythagoreanism_nodate]
 
 What forced them to change this belief is the Pythagorean theorem, since a triangle that has both sides of length 1 would produce a hypotenuse that has the value of an irrational number, $\sqrt2$. There are no ratios of whole numbers that would produce this, which forced Pythagoreans to change their beliefs.
 </div>
@@ -61,14 +61,14 @@ What forced them to change this belief is the Pythagorean theorem, since a trian
 
 Nevertheless, the whole number ratios have been useful to Pythagoras, but in a different context. He decided to explore the relationship between notes that sound pleasing, which is ruled by those ratios. It is said that Pythagoras noticed this while listening to blacksmiths. One had an anvil half the size of the other, and the sounds they made when hit with a hammer were exactly an octave (eight notes) apart. 
 
-However, this story is very unlikely, Pythagoras probably realized the relationships while experimenting with his instruments. But the most important thing is his conclusion, and for Pythagoras this was proof that mathematics and its' rules are applicable to the real world and nature. Besides that, this later led to the development of a concept called harmonic series.
+However, this story is very unlikely, Pythagoras probably realized the relationships while experimenting with his instruments. But the most important thing is his conclusion, and for Pythagoras this was proof that mathematics and its' rules are applicable to the real world and nature. Besides that, this later led to the development of a concept called harmonic series. [@dk_philosophy_2017]
 </div>
 
 ## {data-background=#515151}
 <div style="color:white;">
 * Astronomy
 
-Pythagoras then started to apply these ideas to the whole universe, showing the harmonic relationship of the stars, planets, and elements. This was eagerly taken up by medieval and Renaissance astronomers, who developed whole theories around the idea of the music of the spheres.
+Pythagoras then started to apply these ideas to the whole universe, showing the harmonic relationship of the stars, planets, and elements. This was eagerly taken up by medieval and Renaissance astronomers, who developed whole theories around the idea of the music of the spheres. [@noauthor_pythagoreanism_nodate]
 
 * Less accepted ideas
 
@@ -92,3 +92,5 @@ There are many other ideas that Pythagoras and his followers believed in, howeve
 
 Even though some of these ideas are not as clear or accepted, Pythagoras was very influential due to his way of thinking. He represents one of the first philosophers who asked questions about our surroundings and the universe in a critical way. He also established deductive reasoning and marked the beginning of many concepts that we improved on and use today, especially in mathematics. It is true that all of his followers disappeared fairly quickly, but his ideas were adopted by other schools and philosophers, and some are alive today.
 </div>
+
+## References
