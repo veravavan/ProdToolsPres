@@ -33,12 +33,21 @@ Besides his mathematical and scientific approach, Pythagoras was an incredibly r
 Associated with Asceticism | Associated with Plato 
 Outer circle, not vegetarian, living in their homes, not as trusted | Inner circle, vegetarian, living in the commune with no personal possessions 
 
-## Timeline 
+##
 
-```{r, echo=FALSE, out.width = "100%", out.height = "100%", fig.cap="*Timeline of some influential philosophers who were active before and after Pythagoras*", out.extra='style="background-color:#ADD8E6; padding:10px; display: inline-block;"'}
-knitr::include_graphics("timeline.png")
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width = "95%", out.height = "80%"}
+library(vistime)
+pres <- data.frame(
+  Name = c("Thales of Miletus", "Pythagoras", "Buddha", "Socrates", "Plato", "Aristotle"),
+  start = c("624-01-01", "570-01-01", "563-01-01", "469-01-01", "427-01-01", "384-01-01"),
+  end = c("546-01-01", "495-01-01", "483-01-01", "399-01-01", "347-01-01", "322-01-01"),
+  color = c("#a0522d", "#a52a2a", "#f0e68c", "#603913", "#daa520", "#d2691e"),
+  fontcolor = c("white", "white", "black", "white", "white", "white")
+)
 
+vistime::vistime(pres, col.event = "Name", title = "Timeline of some influential philosophers before and after Pythagoras", optimize_y=FALSE)
 ```
+
 ----------
 Aristotle referred to Pythagoras's followers as **“the so-called Pythagoreans”**, questioning their connection with Pythagoras. [@huffman_pythagoreanism_2019]
 ----------
@@ -83,7 +92,7 @@ There are many other ideas that Pythagoras and his followers believed in, howeve
 <p style="color: white; font-style: oblique; text-align: right; font-size: 25pt;">--Pythagoras</p>
 
 ----------
-![](Pythagoras_ideas.jpg){width=765px; height=400px;}
+![](Pythagoras_ideas.jpg){width=765px; height=370px;}
 ----------
 
 ## {data-background=#515151}
